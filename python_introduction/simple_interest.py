@@ -1,4 +1,3 @@
-# simple_interest.py
 
 # Define variables
 principal = 1000     # Principal amount ($1000)
