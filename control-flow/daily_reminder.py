@@ -1,5 +1,5 @@
 # Ask the user for a task description
-task = input("Entask: ")
+task = input("Enter your task: ")
 
 # Ask for the task's priority
 priority = input("Priority (high/medium/low): ")
@@ -16,7 +16,7 @@ match priority:
     case "low":
         reminder = f" '{task}' - This is a low priority task,"
     case _:
-        reminder = f": '{task}' - Priority not set."
+        reminder = f" '{task}' - Priority not set."
 
 if time_bound == "yes":
     reminder += " It requires immediate attention."
