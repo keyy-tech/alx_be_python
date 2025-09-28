@@ -13,7 +13,7 @@ def main():
         choice = input("Enter your choice: ")
         match choice:
             case "1":
-                item = input("Enter item to add: ")
+                item = input("Enter the item to add: ")
                 shopping_list.append(item)
                 print(f"'{item}' has been added to the list.")
                 print(shopping_list)
